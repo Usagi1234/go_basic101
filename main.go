@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	functions "github.com/Usagi1234/go_basic101/Functions"
 	exported "github.com/Usagi1234/go_basic101/Title"
 )
 
@@ -14,4 +15,6 @@ func main() {
 	//*การสร้างตัวแปรขึ้นต้นด้วยตัวพิมใหญ่จะสามารถส่งออกมาใช้งานได้
 
 	// exported.Exported2()
+	r := functions.Sum(5, 5)
+	fmt.Println(r)
 }
